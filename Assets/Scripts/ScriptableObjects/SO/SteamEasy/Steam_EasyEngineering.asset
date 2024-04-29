@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e8b54fca8f5f445a63eaca02a3e7cf, type: 3}
+  m_Name: Steam_EasyEngineering
+  m_EditorClassIdentifier: 
+  questionDifficultyLevel: 1
+  questionsData:
+  - question: "*\u0627\u0644\u0633\u0624\u0627\u0644:* \u0623\u064A \u0622\u0644\u0629
+      \u0628\u0633\u064A\u0637\u0629 \u062A\u064F\u0633\u062A\u062E\u062F\u0645 \u0644\u0631\u0641\u0639
+      \u0627\u0644\u0623\u0634\u064A\u0627\u0621 \u0627\u0644\u062B\u0642\u064A\u0644\u0629
+      \u0639\u0646 \u0627\u0644\u0623\u0631\u0636\u061F "
+    options:
+    - "\u0623) \u0627\u0644\u0639\u062A\u0644\u0629 "
+    - "\u0628) \u0627\u0644\u0645\u0633\u0645\u0627\u0631 "
+    - "\u062C) \u0627\u0644\u0628\u0643\u0631\u0629 "
+    - "\u062F) \u0627\u0644\u062A\u0631\u0648\u0633 "
+    answeInd: 0
