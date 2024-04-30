@@ -230,6 +230,7 @@ GameObject:
   - component: {fileID: 115794845829175332}
   - component: {fileID: 4495471533081916563}
   - component: {fileID: 5291141576664834315}
+  - component: {fileID: 4776063897078014055}
   m_Layer: 5
   m_Name: btn_a (0)
   m_TagString: Untagged
@@ -387,6 +388,22 @@ MonoBehaviour:
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 0, g: 0.29803923, b: 1, a: 1}
   clickColor: {r: 0.23137255, g: 1, b: 0, a: 1}
+--- !u!114 &4776063897078014055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2661908466040778894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3904569ad25b3439f02fc97808c79d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toEnable: []
+  toDisable:
+  - {fileID: 4661834476968862198}
+  isDisableOnStart: 0
 --- !u!1 &3007434734120846951
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,6 +805,7 @@ GameObject:
   - component: {fileID: 1321491984436602428}
   - component: {fileID: 8186676731791806491}
   - component: {fileID: 8940801441239379314}
+  - component: {fileID: 5122487482748209055}
   m_Layer: 5
   m_Name: btn_a (2)
   m_TagString: Untagged
@@ -945,6 +963,22 @@ MonoBehaviour:
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 0, g: 0.29803923, b: 1, a: 1}
   clickColor: {r: 0.23137255, g: 1, b: 0, a: 1}
+--- !u!114 &5122487482748209055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4279265391183392567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3904569ad25b3439f02fc97808c79d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toEnable: []
+  toDisable:
+  - {fileID: 7738629391184176174}
+  isDisableOnStart: 0
 --- !u!1 &4519588969347885887
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,6 +1586,7 @@ GameObject:
   - component: {fileID: 4076483383738861768}
   - component: {fileID: 55457105036386026}
   - component: {fileID: 6442934293210528439}
+  - component: {fileID: 7002096523580286361}
   m_Layer: 5
   m_Name: btn_a (1)
   m_TagString: Untagged
@@ -1709,6 +1744,22 @@ MonoBehaviour:
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 0, g: 0.29803923, b: 1, a: 1}
   clickColor: {r: 0.23137255, g: 1, b: 0, a: 1}
+--- !u!114 &7002096523580286361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7070714852420723576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3904569ad25b3439f02fc97808c79d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toEnable: []
+  toDisable:
+  - {fileID: 1523020191734919581}
+  isDisableOnStart: 0
 --- !u!1 &7249579873811757965
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,6 +2221,7 @@ GameObject:
   - component: {fileID: 2368384755738600569}
   - component: {fileID: 229122098538746192}
   - component: {fileID: 8943155629894551423}
+  - component: {fileID: 7005695910956648090}
   m_Layer: 5
   m_Name: btn_a (3)
   m_TagString: Untagged
@@ -2327,3 +2379,19 @@ MonoBehaviour:
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 0, g: 0.29803923, b: 1, a: 1}
   clickColor: {r: 0.23137255, g: 1, b: 0, a: 1}
+--- !u!114 &7005695910956648090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8926323914845236972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3904569ad25b3439f02fc97808c79d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toEnable: []
+  toDisable:
+  - {fileID: 2842915873497079159}
+  isDisableOnStart: 0

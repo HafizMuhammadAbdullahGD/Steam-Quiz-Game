@@ -157,7 +157,10 @@ public class QuestionsManager : MonoBehaviour
     public void GiveSteamAnswer(int answerInd)
     {
 
-        AnalyzeSteamAnswer(answerInd);
+        if (!AnalyzeSteamAnswer(answerInd))
+        {
+            return;
+        }
         if (++currSteamQuesInd >= currSteamQuiz.Count)
         {
             EventSteamQuizEnd?.Invoke();
@@ -168,11 +171,16 @@ public class QuestionsManager : MonoBehaviour
         //Broadcast Next Question Data
         EventOnGiveSteamAnswer?.Invoke(currSteamQuiz[currSteamQuesInd]);
     }
-    private void AnalyzeSteamAnswer(int answerInd)
+    private bool AnalyzeSteamAnswer(int answerInd)
     {
         if (currSteamQuiz[currSteamQuesInd].answeInd == answerInd)
         {
             steamQuestionsResult.TotalRightAnswers[currSteamInd]++;
+            return true;
+        }
+        else
+        {
+            return false;
         }
 
     }
