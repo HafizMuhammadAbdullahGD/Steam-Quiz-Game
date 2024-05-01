@@ -119,8 +119,10 @@ public class UIManager : MonoBehaviour
 
         float totalPercentage = ((generalResultPercentage + steamResultPercentage) * 100) / 200;
         print(totalPercentage);
-        txtResult.text = "لقد حصلت على نسبة " + totalPercentage.ToString() + "%";
-        txtResult.GetComponent<ArabicFixerTMPRO>().fixedText = "لقد حصلت على نسبة " + totalPercentage.ToString() + "%";
+        // txtResult.text = "لقد حصلت على نسبة " + totalPercentage.ToString() + "%";
+        // txtResult.GetComponent<ArabicFixerTMPRO>().fixedText = "لقد حصلت على نسبة " + totalPercentage.ToString() + "%";
+        txtResult.text = totalPercentage.ToString() + "%";
+        txtResult.GetComponent<ArabicFixerTMPRO>().fixedText = totalPercentage.ToString() + "%";
     }
     // }
     // public void LoadNextGeneralQuestion()
